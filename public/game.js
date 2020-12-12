@@ -94,7 +94,7 @@ function startTimer() {
 //   console.log(m)
   setTimeout(startTimer, 1000);
   if(m<0){
-    document.getElementById('timer').innerHTML = 000 +":" +00;
+    document.getElementById('timer').innerHTML = 'GAME OVER';
         if(gameArr.length <= 0){
         location.reload();
         } else{
