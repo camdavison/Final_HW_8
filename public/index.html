@@ -1,66 +1,66 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creative Cap</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-</head>
-<body class="bg-black py-8">
-<!--MAIN CONTENT WRAPPER-->    
-    <main class="max-w-6xl md:mx-auto   px-6 sm:px-6 lg:px-8">
-       <!--NAV START-->
-       <div id="nav" class="hidden sm:flex sm:mb-16 sm:ml-2 sm:space-x-20">
-        <div id="Play">
-            <a href="game-active.html">    
-                <span class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out ">Play</span>
-            </a>
-        </div>
-        <div id="About">
-            <a href="about.html">
-                <span  class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">About</span>
-            </a>
-        </div>
-    </div>  
-<!--MOBILE NAV-->                
-    <div id="logo-bar" class="flex justify-between items-center">
-        <div id="logo">
-            <a href="index.html">
-                <img src="img/Logo.svg" alt="creative cap logo" href="game-active.html" class="w-12 h-12 md:w-24 md:h-24">
-            </a>
-        </div>
-        <div id="mob-nav" class="  flex space-x-10 mr-10 sm:hidden">
-            <div id="mob-play">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creative Cap</title>
+        <link rel="stylesheet" href="Assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-black py-8">
+    <!--MAIN CONTENT WRAPPER-->    
+        <main class="max-w-6xl md:mx-auto   px-6 sm:px-6 lg:px-8">
+        <!--NAV START-->
+        <div id="nav" class="hidden sm:flex sm:mb-16 sm:ml-2 sm:space-x-20">
+            <div id="Play">
                 <a href="game-active.html">    
-                    <span class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">Play</span>
+                    <span class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out ">Play</span>
                 </a>
             </div>
-            <div id="mob-about">
+            <div id="About">
                 <a href="about.html">
                     <span  class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">About</span>
                 </a>
             </div>
-        </div>
-    </div>
-<!--NAV OVER-->
-        <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">   
-            <div class>
-                <h1 class="text-4xl text-primary-100 mt-10 mb-8 font-main font-bold md:text-5xl " id="header">Creative Cap</h1>   
+        </div>  
+    <!--MOBILE NAV-->                
+        <div id="logo-bar" class="flex justify-between items-center">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="assets/img/Logo.svg" alt="creative cap logo" href="game-active.html" class="w-12 h-12 md:w-24 md:h-24">
+                </a>
             </div>
-            <div style="width: 320px" class="  mb-8 w-auto mb-8 md:flex-none md:mt-20">
-                <p class="text-primary-200 text-lg font-light mt-8 mb-8">Test your creative writing by completing as many captions as you can in 2 minutes. The more unique the better!</p>
-             </div>
-        </div>
-        <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            <div id="game-square">
-                <a href="game-active.html"><button style="width: 320px"class=" mb-8 h-72 w-72 bg-gray-900 border-t-4 border-primary-300 md:flex-none" onclick="gameStart()"></button></a>
+            <div id="mob-nav" class="  flex space-x-10 mr-10 sm:hidden">
+                <div id="mob-play">
+                    <a href="game-active.html">    
+                        <span class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">Play</span>
+                    </a>
+                </div>
+                <div id="mob-about">
+                    <a href="about.html">
+                        <span  class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">About</span>
+                    </a>
+                </div>
             </div>
-            <div class=" md:flex-none" style="width: 320px;">
-                 <a class="  " href="game-active.html"><button class="w-full h-20 mt-4 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out md:mt-20" id="playBtn" href="game-active.html" onclick="gameStart()">PLAY</button></a>
-             </div>
         </div>
-    </main>
-<!--MAIN CONTENT WRAPPER OVER-->
-</body>
+    <!--NAV OVER-->
+            <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">   
+                <div class>
+                    <h1 class="text-4xl text-primary-100 mt-10 mb-8 font-main font-bold md:text-5xl " id="header">Creative Cap</h1>   
+                </div>
+                <div style="width: 320px" class="  mb-8 w-auto mb-8 md:flex-none md:mt-20">
+                    <p class="text-primary-200 text-lg font-light mt-8 mb-8">Test your creative writing by completing as many captions as you can in 2 minutes. The more unique the better!</p>
+                </div>
+            </div>
+            <div class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                <div id="game-square">
+                    <a href="game-active.html"><button style="width: 320px"class=" mb-8 h-72 w-72 bg-gray-900 border-t-4 border-primary-300 md:flex-none" onclick="gameStart()"></button></a>
+                </div>
+                <div class=" md:flex-none" style="width: 320px;">
+                    <a class="  " href="game-active.html"><button class="w-full h-20 mt-4 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out md:mt-20" id="playBtn" href="game-active.html" onclick="gameStart()">PLAY</button></a>
+                </div>
+            </div>
+        </main>
+    <!--MAIN CONTENT WRAPPER OVER-->
+    </body>
 </html>

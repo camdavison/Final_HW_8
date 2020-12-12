@@ -77,7 +77,7 @@ function addCaption() {
 
 document.getElementById('timer').innerHTML =
   //sets timer amount
-   00 + ":" +30;
+   02 + ":" +00;
   //auto -starts timer
 startTimer();
 
