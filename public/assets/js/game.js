@@ -21,6 +21,13 @@ function gameStart() {
     
 }
 
+function continueGame() {
+    
+  document.getElementById('imageToDisplay').src = "https://picsum.photos/id/"+getRanNum()+"/320/288/";
+  autoFocus();
+ 
+}
+
 // triggers the local storage function
 
 function gameOver(){

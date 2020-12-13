@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 <!--MAIN CONTENT WRAPPER-->
         <main class="max-w-6xl mb-30 md:mx-auto   px-6 sm:px-6 lg:px-8">
 
-<<!--NAV START-->
+<!--NAV START-->
         <div id="nav" class="hidden sm:flex sm:mb-16 sm:ml-2 sm:space-x-20">
             <div id="Play">
                 <a href="index.html">    
@@ -28,7 +28,7 @@
             <div id="logo-bar" class="flex items-center">
                 <div id="logo">
                     <a href="index.html">
-                        <img src="assets/img/Logo.svg" alt="creative cap logo" href="game-active.html" class="w-8 h-8 sm:w-24 sm:h-24">
+                        <img src="assets/img/Logo.svg" alt="creative cap logo" class="w-8 h-8 sm:w-24 sm:h-24">
                     </a>
                 </div>
         <!--MOBILE NAV-->
@@ -56,7 +56,7 @@
 
             <div class="md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"> <!--game wrapper-->
                 <div id="game-square" style="width: 320px" class="flex-none  bg-gray-900 border-t-4 border-primary-300">
-                    <img class="object-cover"id="imageToDisplay" src="#" onerror="gameStart()">
+                    <img class="object-cover" id="imageToDisplay" src="#" alt="game playing square where images show up" onerror="gameStart()">
                 </div>
 
                 <div style="width: 320px" class="flex mt-8"> 
@@ -69,13 +69,13 @@
                             <input type="text" id="captionTxt" placeholder="Write caption here"  class="w-96 h-24 md;h-40 px-3 py-3 placeholder-gray-400 text-gray-700 relative bg-white bg-white rounded text-lg text-center focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent w-full cursor-pointer"/>
                         </div>
                         <div id="button"><!--button-->
-                            <button  style="width: 320px" class="w-72 h-16 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out active:bg-primary-300" id="getImagesBtn" onclick="addCaption()">NEXT IMAGE</button>
+                            <button  style="width: 320px" class="w-72 h-16 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out " id="getImagesBtn" onclick="addCaption()">NEXT IMAGE</button>
                         </div> 
                     </div>
                 </div>
             </div>
         </main>
 <!--MAIN CONTENT WRAPPER OVER-->
-        <script type="text/javascript" src="assets/js/game.js"></script>
+        <script src="assets/js/game.js"></script>
     </body>
 </html>
