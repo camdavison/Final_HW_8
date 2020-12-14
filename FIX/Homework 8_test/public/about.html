@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creative Cap</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body class="bg-black py-8">
+            <main class="max-w-6xl md:mx-auto   px-6 sm:px-6 lg:px-8">
+    <!--NAV START-->
+                <div id="nav" class="hidden sm:flex sm:mb-16 sm:ml-2 sm:space-x-20">
+                    <div id="Play">
+                        <a href="game-active.html">    
+                            <span class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">Play</span>
+                        </a>
+                    </div>
+                    <div id="About">
+                        <a href="index.html">
+                            <span  class="text-primary-200 text-xl font-light hover:text-primary-300  transition duration-300 ease-in-out">Home</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center">     
+                    <div id="logo-bar" class="flex items-center">
+                        <div id="logo">
+                            <a href="index.html">
+                                <img src="assets/img/Logo.svg" alt="creative cap logo" class="w-8 h-8 sm:w-24 sm:h-24">
+                            </a>
+                        </div>
+    <!--MOBILE NAV-->
+                        <div id="mob-nav" class="space-x-10  sm:hidden">
+                            <div class="text-primary-100 text-2xl font-main font-bold ml-3">
+                                <h1>Creative Cap</h1>
+                            </div>
+                            
+                        </div>
+                    </div>
+    <!--DISSAPEARS @ SM SCREEN SIZE-->
+                    <div style="width: 80px" class="sm:hidden">
+                        <button style="width: 80px" class="h-12 mt-4 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out md:mt-20" onclick= "location.href='game-active.html'">PLAY</button>
+                    </div>
+                </div>
+    <!--NAV OVER-->
+
+                <div>   
+                    <div class>
+                        <h1 class="sm:w-full text-4xl text-primary-100 mt-10 mb-8 font-main font-bold md:text-5xl " id="header">
+                            Flex your Creative Fluency!
+                        </h1>   
+                    </div>
+                    <div class=" md:max-w-2xl">
+                        <img class="mx-auto sm:mx-0" src="assets/img/lightBulb.png" alt="creative light bulb">
+                    </div>
+                    <div style="width: auto" class= "mb-8 w-auto mb-8 md:flex-none sm:max-w-md md:mt-8 md:max-w-3xl">
+                        <p class="text-primary-200 text-lg font-light mt-8 mb-8">Creative fluency refers to the quantity or the ability to generate a large number of ideas in response to an open-ended question. Creative Cap helps you build you creative fluency by giving you a variety of images to caption in a small time frame. </p>
+                    </div>
+                </div>
+    <!--APPEARS @ MD SCREEN-->
+                <div class="md:flex-none items-center" style="width: 320px">
+                    <button class="w-full h-20 mt-4 text-white  bg-gray-900 border-t-4 border-primary-300 hover:bg-primary-300 transition duration-300 ease-in-out " onclick= "location.href='game-active.html'">TRY IT</button>
+                </div>
+            </main>
+    </body>
+</html>

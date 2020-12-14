@@ -6,8 +6,8 @@ module.exports = {
       colors: {
         primary: {
           100: '#CFD0D6',
-          200: '#9DA0B2',
-          300: '#7348D5'
+          200: '9DA0B2',
+          300: '7348D5'
         }
       },
       fontFamily: {
@@ -16,7 +16,6 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['active'],
     extend: {},
   },
   plugins: [],
