@@ -14,9 +14,19 @@ class Caption {
 
 // Starts game by generating a random image
 
+function load() {
+  document.getElementById('timer').innerHTML =
+  //sets timer amount
+   02 + ":" +00;
+  //auto -starts timer
+  startTimer();
+}
+
+
 function gameStart() {
     
      document.getElementById('imageToDisplay').src = "https://picsum.photos/id/"+getRanNum()+"/320/288/";
+     console.log('gameStart RAN')
     autoFocus();
     
 }
@@ -82,11 +92,7 @@ function addCaption() {
 
 // Timer
 
-document.getElementById('timer').innerHTML =
-  //sets timer amount
-   02 + ":" +00;
-  //auto -starts timer
-startTimer();
+
 
 function startTimer() {
   var presentTime = document.getElementById('timer').innerHTML;

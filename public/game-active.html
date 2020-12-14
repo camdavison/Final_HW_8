@@ -7,8 +7,9 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="assets/js/game.js"></script>
     </head>
-    <body class="bg-black py-8"  onload="gameStart()">
+    <body class="bg-black py-8"  onload="load()">
 <!--MAIN CONTENT WRAPPER-->
         <main class="max-w-6xl mb-30 md:mx-auto   px-6 sm:px-6 lg:px-8">
 
@@ -57,7 +58,7 @@
 
             <div class="md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10"> <!--game wrapper-->
                 <div id="game-square" style="width: 320px" class="flex-none  bg-gray-900 border-t-4 border-primary-300">
-                    <img class="object-cover" id="imageToDisplay" src="#" alt="game playing square where images show up" >
+                    <img class="object-cover" id="imageToDisplay" src="#" alt="game playing square where images show up" onerror="gameStart()" >
                 </div>
 
                 <div style="width: 320px" class="flex mt-8"> 
@@ -77,6 +78,6 @@
             </div>
         </main>
 <!--MAIN CONTENT WRAPPER OVER-->
-        <script src="assets/js/game.js"></script>
+        
     </body>
 </html>
